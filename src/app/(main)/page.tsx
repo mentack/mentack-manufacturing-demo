@@ -42,7 +42,7 @@ export default function HomePage() {
 
       {/* Key Capabilities */}
       <section className="py-16 md:py-24 bg-card">
-        <div className="container max-w-7xl">
+        <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center">{t('home_key_capabilities_title')}</h2>
           <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {capabilities.map(cap => {
@@ -68,7 +68,7 @@ export default function HomePage() {
 
       {/* Product Preview */}
       <section className="py-16 md:py-24">
-        <div className="container max-w-7xl">
+        <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center">{t('home_products_title')}</h2>
           <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {products.map(prod => {
@@ -95,7 +95,7 @@ export default function HomePage() {
 
       {/* Industries Served */}
       <section className="py-16 md:py-24 bg-secondary">
-          <div className="container max-w-7xl">
+          <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <h2 className="text-3xl font-bold text-center">{t('home_industries_title')}</h2>
               <div className="mt-12 flex flex-wrap justify-center items-center gap-x-12 gap-y-8">
                   {industries.map(industry => {
@@ -113,7 +113,7 @@ export default function HomePage() {
 
       {/* Why Choose Us */}
       <section className="py-16 md:py-24">
-        <div className="container max-w-7xl">
+        <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center">{t('home_why_choose_us_title')}</h2>
           <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
             {whyChooseUs.map(item => {
@@ -138,7 +138,7 @@ export default function HomePage() {
       
       {/* CTA Band */}
       <section className="bg-primary text-primary-foreground">
-        <div className="container max-w-7xl py-16 text-center">
+        <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 text-center">
           <h2 className="text-3xl font-bold">{t('home_cta_title')}</h2>
           <p className="mt-2 max-w-2xl mx-auto text-lg text-primary-foreground/80">{t('home_cta_subtitle')}</p>
           <div className="mt-8">
