@@ -1,3 +1,184 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-home",
+      "description": "Wide shot of a modern manufacturing floor with machinery",
+      "imageUrl": "https://images.unsplash.com/photo-1654703680007-d5d9699cddfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmYWN0b3J5JTIwcHJvZHVjdGlvbnxlbnwwfHx8fDE3Njc3MTIzMDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "factory production"
+    },
+    {
+      "id": "capability-custom",
+      "description": "Close-up of a CNC machine cutting metal",
+      "imageUrl": "https://images.unsplash.com/photo-1716191300020-b52dec5b70a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxDTkMlMjBtYWNoaW5lfGVufDB8fHx8MTc2Nzc5MzgyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "CNC machine"
+    },
+    {
+      "id": "capability-scalable",
+      "description": "View of a large production line with multiple stations",
+      "imageUrl": "https://images.unsplash.com/photo-1717386255767-52643970d483?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9kdWN0aW9uJTIwbGluZXxlbnwwfHx8fDE3Njc3OTM4MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "production line"
+    },
+    {
+      "id": "capability-quality",
+      "description": "An engineer inspecting a metal part with calipers",
+      "imageUrl": "https://images.unsplash.com/photo-1700727448542-50531bc60211?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxxdWFsaXR5JTIwaW5zcGVjdGlvbnxlbnwwfHx8fDE3Njc3OTM4MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "quality inspection"
+    },
+    {
+      "id": "capability-engineering",
+      "description": "Two engineers discussing a technical drawing",
+      "imageUrl": "https://images.unsplash.com/photo-1742112125635-6f8201c6ee3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxlbmdpbmVlcnMlMjBkaXNjdXNzaW9ufGVufDB8fHx8MTc2Nzc5MzgyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "engineers discussion"
+    },
+    {
+      "id": "product-custom-components",
+      "description": "An array of custom-machined metal components",
+      "imageUrl": "https://images.unsplash.com/photo-1745449562896-71ba57d1e2b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtZXRhbCUyMGNvbXBvbmVudHN8ZW58MHx8fHwxNzY3NzkzODIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "metal components"
+    },
+    {
+      "id": "product-industrial-assemblies",
+      "description": "A complex industrial assembly with various parts",
+      "imageUrl": "https://images.unsplash.com/photo-1629728849536-02e9fe984513?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpbmR1c3RyaWFsJTIwYXNzZW1ibHl8ZW58MHx8fHwxNzY3NzkzODIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "industrial assembly"
+    },
+    {
+      "id": "product-oem-manufacturing",
+      "description": "A production line for OEM parts",
+      "imageUrl": "https://images.unsplash.com/photo-1631387019069-2ff599943f9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxPRU0lMjBwcm9kdWN0aW9ufGVufDB8fHx8MTc2Nzc5MzgyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "OEM production"
+    },
+    {
+      "id": "product-contract-manufacturing",
+      "description": "A worker assembling a product under a contract manufacturing agreement",
+      "imageUrl": "https://images.unsplash.com/photo-1583737077813-bc3945c54a4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb250cmFjdCUyMGFzc2VtYmx5fGVufDB8fHx8MTc2Nzc5MzgyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "contract assembly"
+    },
+    {
+      "id": "hero-products",
+      "description": "Close-up of a high-tech manufacturing machine in operation",
+      "imageUrl": "https://images.unsplash.com/photo-1760011604179-b75b048fd19f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtYWNoaW5lcnklMjBvcGVyYXRpb258ZW58MHx8fHwxNzY3NzkzODIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "machinery operation"
+    },
+    {
+      "id": "hero-capabilities",
+      "description": "A robotic arm working on a production line",
+      "imageUrl": "https://images.unsplash.com/photo-1637002722490-5f8ceed9774c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyb2JvdGljJTIwYXJtfGVufDB8fHx8MTc2Nzc4NDY4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "robotic arm"
+    },
+    {
+      "id": "capabilities-process",
+      "description": "Detailed view of a metal fabrication process",
+      "imageUrl": "https://images.unsplash.com/photo-1509024368907-57294758cfc5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtZXRhbCUyMGZhYnJpY2F0aW9ufGVufDB8fHx8MTc2NzcyNDk3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "metal fabrication"
+    },
+    {
+      "id": "capabilities-machinery",
+      "description": "A state-of-the-art industrial laser cutter",
+      "imageUrl": "https://images.unsplash.com/photo-1615551794721-3717e6f3b134?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsYXNlciUyMGN1dHRlcnxlbnwwfHx8fDE3Njc3MzUzODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "laser cutter"
+    },
+    {
+      "id": "capabilities-customization",
+      "description": "Engineer using CAD software on a computer",
+      "imageUrl": "https://images.unsplash.com/photo-1706777387154-ab5bf204a5bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxDQUQlMjBzb2Z0d2FyZXxlbnwwfHx8fDE3Njc3OTM4MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "CAD software"
+    },
+    {
+      "id": "capabilities-scalability",
+      "description": "A large warehouse with finished products ready for shipping",
+      "imageUrl": "https://images.unsplash.com/photo-1761952199686-e5d0f76e4f5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3YXJlaG91c2UlMjBwcm9kdWN0c3xlbnwwfHx8fDE3Njc3OTM4MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "warehouse products"
+    },
+    {
+      "id": "hero-industries",
+      "description": "A montage of different industrial applications",
+      "imageUrl": "https://images.unsplash.com/photo-1597057435443-8a51eeb5538f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxpbmR1c3RyaWFsJTIwbW9udGFnZXxlbnwwfHx8fDE3Njc3OTM4MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "industrial montage"
+    },
+    {
+      "id": "industry-automotive",
+      "description": "A car chassis on an assembly line",
+      "imageUrl": "https://images.unsplash.com/photo-1767340078222-98633f3ffd27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhdXRvbW90aXZlJTIwYXNzZW1ibHl8ZW58MHx8fHwxNzY3NzkzODIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "automotive assembly"
+    },
+    {
+      "id": "industry-energy",
+      "description": "A wind turbine component being manufactured",
+      "imageUrl": "https://images.unsplash.com/photo-1562519990-50eb51e282b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aW5kJTIwdHVyYmluZXxlbnwwfHx8fDE3Njc3NDU3OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wind turbine"
+    },
+    {
+      "id": "industry-construction",
+      "description": "Structural steel beams for a large building",
+      "imageUrl": "https://images.unsplash.com/photo-1651611790023-53bd5b6fb59b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3RlZWwlMjBiZWFtc3xlbnwwfHx8fDE3Njc3OTM4MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "steel beams"
+    },
+    {
+      "id": "industry-equipment",
+      "description": "A heavy-duty industrial machine part",
+      "imageUrl": "https://images.unsplash.com/photo-1733683296842-c5c32fe36a50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aW5kdXN0cmlhbCUyMGVxdWlwbWVudHxlbnwwfHx8fDE3Njc3Mjk4OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "industrial equipment"
+    },
+    {
+      "id": "industry-oem",
+      "description": "A variety of OEM parts arranged neatly",
+      "imageUrl": "https://picsum.photos/seed/ind-oem/800/600",
+      "imageHint": "OEM parts"
+    },
+    {
+      "id": "hero-quality",
+      "description": "A quality control inspector using a magnifying glass",
+      "imageUrl": "https://images.unsplash.com/photo-1748255882537-cbe88b145305?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxxdWFsaXR5JTIwY29udHJvbHxlbnwwfHx8fDE3Njc3MTAxNDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "quality control"
+    },
+    {
+      "id": "quality-philosophy",
+      "description": "A clean, well-organized factory floor",
+      "imageUrl": "https://images.unsplash.com/photo-1710828777420-7e415632d428?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjbGVhbiUyMGZhY3Rvcnl8ZW58MHx8fHwxNzY3NzkzODIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clean factory"
+    },
+    {
+      "id": "quality-inspection",
+      "description": "A high-tech coordinate measuring machine (CMM) in action",
+      "imageUrl": "https://images.unsplash.com/photo-1580894074931-5250548fc3be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxDTU0lMjBtYWNoaW5lfGVufDB8fHx8MTc2Nzc5MzgyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "CMM machine"
+    },
+    {
+      "id": "quality-certs",
+      "description": "A person holding a framed ISO certification document",
+      "imageUrl": "https://images.unsplash.com/photo-1568137224279-f19f0f825447?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxJU08lMjBjZXJ0aWZpY2F0aW9ufGVufDB8fHx8MTc2Nzc5MzgyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ISO certification"
+    },
+    {
+      "id": "quality-improvement",
+      "description": "A team meeting focused on process improvement charts",
+      "imageUrl": "https://images.unsplash.com/photo-1624555130581-1d9cca783bc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dGVhbSUyMG1lZXRpbmd8ZW58MHx8fHwxNzY3Njk1MTQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "team meeting"
+    },
+    {
+      "id": "hero-about",
+      "description": "Exterior shot of the modern Mentack Manufacturing building",
+      "imageUrl": "https://images.unsplash.com/photo-1741524916151-adb68ab64e46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmYWN0b3J5JTIwZXh0ZXJpb3J8ZW58MHx8fHwxNzY3NzAzMzQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "factory exterior"
+    },
+    {
+      "id": "about-overview",
+      "description": "A group of diverse and professional employees",
+      "imageUrl": "https://images.unsplash.com/photo-1764114908655-9a26d32750a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYWN0b3J5JTIwdGVhbXxlbnwwfHx8fDE3Njc3OTM4MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "factory team"
+    },
+    {
+      "id": "about-facility",
+      "description": "Another angle of the bright and modern production facility",
+      "imageUrl": "https://images.unsplash.com/photo-1739599211500-74e04a9ca175?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwcm9kdWN0aW9uJTIwZmFjaWxpdHl8ZW58MHx8fHwxNzY3NzkzODIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "production facility"
+    },
+    {
+      "id": "hero-contact",
+      "description": "The welcoming reception area of the Mentack office",
+      "imageUrl": "https://images.unsplash.com/photo-1652803723541-ffc5a8783329?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxvZmZpY2UlMjByZWNlcHRpb258ZW58MHx8fHwxNzY3NzkyMzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office reception"
+    }
+  ]
 }
