@@ -1,11 +1,12 @@
 'use client';
 
 import { useEffect } from 'react';
-import { useFormState, useForm } from 'react-hook-form';
+import { useForm } from 'react-hook-form';
+import { useFormState } from 'react-dom';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { useTranslation } from '@/hooks/use-translation';
-import { submitInquiry } from '@/app/actions';
+import { submitInquiry, type FormState } from '@/app/actions';
 import { useToast } from "@/hooks/use-toast";
 
 import { Button } from '@/components/ui/button';
@@ -27,11 +28,13 @@ export function ContactForm() {
     const { t, language } = useTranslation();
     const { toast } = useToast();
 
-    const [state, formAction] = useFormState(submitInquiry, {
+    const initialState: FormState = {
         message: '',
         errors: null,
         success: false,
-    });
+    };
+
+    const [state, formAction] = useFormState<FormState, FormData>(submitInquiry, initialState);
     
     const form = useForm<FormValues>({
         defaultValues: {
@@ -60,7 +63,7 @@ export function ContactForm() {
         }
     }, [state, toast, t, form]);
 
-    const {formState} = useFormState({control: form.control});
+    const { formState } = form;
 
     return (
         <Form {...form}>
@@ -76,7 +79,7 @@ export function ContactForm() {
                                 <FormControl>
                                     <Input {...field} />
                                 </FormControl>
-                                <FormMessage>{state.errors?.companyName}</FormMessage>
+                                <FormMessage>{state.errors?.companyName?.[0]}</FormMessage>
                             </FormItem>
                         )}
                     />
@@ -89,7 +92,7 @@ export function ContactForm() {
                                 <FormControl>
                                     <Input {...field} />
                                 </FormControl>
-                                <FormMessage>{state.errors?.contactPerson}</FormMessage>
+                                <FormMessage>{state.errors?.contactPerson?.[0]}</FormMessage>
                             </FormItem>
                         )}
                     />
@@ -102,7 +105,7 @@ export function ContactForm() {
                                 <FormControl>
                                     <Input type="email" {...field} />
                                 </FormControl>
-                                <FormMessage>{state.errors?.email}</FormMessage>
+                                <FormMessage>{state.errors?.email?.[0]}</FormMessage>
                             </FormItem>
                         )}
                     />
@@ -115,7 +118,7 @@ export function ContactForm() {
                                 <FormControl>
                                     <Input {...field} />
                                 </FormControl>
-                                <FormMessage>{state.errors?.phone}</FormMessage>
+                                <FormMessage>{state.errors?.phone?.[0]}</FormMessage>
                             </FormItem>
                         )}
                     />
@@ -153,7 +156,7 @@ export function ContactForm() {
                             <FormControl>
                                 <Textarea rows={6} {...field} />
                             </FormControl>
-                            <FormMessage>{state.errors?.message}</FormMessage>
+                            <FormMessage>{state.errors?.message?.[0]}</FormMessage>
                         </FormItem>
                     )}
                 />

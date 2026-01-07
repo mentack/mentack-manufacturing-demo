@@ -3,6 +3,14 @@
 import { z } from 'zod';
 import { translations } from '@/lib/translations';
 
+export type FormErrors = Record<string, string[] | undefined>;
+
+export type FormState = {
+  message: string;
+  errors: FormErrors | null;
+  success: boolean;
+};
+
 type Language = 'en' | 'tr';
 
 // This is a simplified way to get language for server-side validation messages.
@@ -15,10 +23,12 @@ const getValidationMessages = (lang: Language) => {
         email_invalid: t('form_validation_email_invalid'),
         message_short: t('form_validation_message_short'),
         message_long: t('form_validation_message_long'),
+    form_success_message: t('form_success_message'),
+    form_error_generic: t('form_error_generic'),
     }
 }
 
-export async function submitInquiry(prevState: any, formData: FormData) {
+export async function submitInquiry(prevState: FormState, formData: FormData): Promise<FormState> {
   const lang = (formData.get('lang') as Language) || 'en';
   const messages = getValidationMessages(lang);
 
@@ -36,7 +46,7 @@ export async function submitInquiry(prevState: any, formData: FormData) {
   if (!validatedFields.success) {
     return {
       errors: validatedFields.error.flatten().fieldErrors,
-      message: 'Error: Please check the fields.',
+      message: messages.form_error_generic,
       success: false,
     };
   }
